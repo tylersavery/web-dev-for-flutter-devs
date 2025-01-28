@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container .left {
+    background: blue;
+    min-height: 500px;
+    width: 100px;
+}
+
+.container .right {
+    background: red;
+    min-height: 500px;
+    flex: 1;
+
+}
